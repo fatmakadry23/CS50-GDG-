@@ -4,5 +4,5 @@ IF GRADE >= 5O THEN
 PRINT "Pass"
 ELSE 
 PRINT "Fail"
-End IF
-ENd
+END IF
+END
