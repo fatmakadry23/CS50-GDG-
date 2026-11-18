@@ -1,0 +1,10 @@
+STAR 
+INPUT 
+Seating Numbers (10300,10301,10302,10303,10304,10305)
+OUTPUT 
+IF Number >= 10300 and <= 10305
+PRINT "Accepted"
+IF Number < 10300 or >10305
+PRINT "Rejected"
+END IF
+END
