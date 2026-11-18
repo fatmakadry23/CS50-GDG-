@@ -1,10 +1,44 @@
-STAR 
+Algorithm
+
+1. ابدأ
+2. استقبل أرقام جلوس  
+3. استقبل قائمة الطلاب المسجلين 
+4. تحقق إن أرقام الجلوس صح 
+5. ابحث عن الرقم داخل القائمة
+6. لو موجود → اسمح بالدخول
+7. لو مش موجود → ارفض الدخول
+8. اطبع النتيجة
+9. انتهى
+
+Input 
+Seating Numbers AND Registered List
+Output 
+Accepted or Rejected 
+
+pseudocode
+
+START
 INPUT 
-Seating Numbers (10300,10301,10302,10303,10304,10305)
-OUTPUT 
-IF Number >= 10300 and <= 10305
+SEATING NUMBERS AND REGISTERED LIST
+IF SEATING NUMBERS IS EMPTY 
 PRINT "Accepted"
-IF Number < 10300 or >10305
+ELSE
 PRINT "Rejected"
 END IF
 END
+
+
+Test Cases
+
+Test Case 1:
+
+Registered List = [101, 102, 103, 104]
+Seat Number = 102
+Output = Accepted 
+
+Test Case 2:
+
+Registered List = [101, 102, 103, 104]
+Seat Number = 105 
+Output = Rejected
+
