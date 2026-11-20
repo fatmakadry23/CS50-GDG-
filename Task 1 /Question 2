@@ -2,13 +2,11 @@ Algorithm
 
 1. ابدأ
 2. استقبل أرقام جلوس  
-3. استقبل قائمة الطلاب المسجلين 
-4. تحقق إن أرقام الجلوس صح 
-5. ابحث عن الرقم داخل القائمة
-6. لو موجود → اسمح بالدخول
-7. لو مش موجود → ارفض الدخول
-8. اطبع النتيجة
-9. انتهى
+3. هشوف الرقم موجود فى القائمه ولا لأ 
+5. هسمحله بالدخول لو موجود 
+6. هرفض ادخله لو الرقم مش موجود 
+7. اطبع النتيجة 
+8. انتهى
 
 Input 
 Seating Numbers AND Registered List
@@ -19,8 +17,8 @@ pseudocode
 
 START
 INPUT 
-SEATING NUMBERS AND REGISTERED LIST
-IF SEATING NUMBERS IS EMPTY 
+SEAT NUMBER AND Registered List  (100,101,102,103,104,105)
+IF SEAT NUMBER >=100 and <=105
 PRINT "Accepted"
 ELSE
 PRINT "Rejected"
@@ -32,13 +30,11 @@ Test Cases
 
 Test Case 1:
 
-Registered List = [101, 102, 103, 104]
 Seat Number = 102
 Output = Accepted 
 
 Test Case 2:
 
-Registered List = [101, 102, 103, 104]
-Seat Number = 105 
+Seat Number = 108
 Output = Rejected
 
